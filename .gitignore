@@ -1,5 +1,5 @@
-*
+/*
 !.gitignore
-!arch
-!include
-!usr_hypercall
+!/arch/
+!/include/
+!/usr_hypercall/
