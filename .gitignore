@@ -4,4 +4,5 @@
 !/include/
 !/usr_hypercall/
 !/tools/
+!/mm/
 !Makefile
