@@ -14,6 +14,24 @@
 #include <asm/pgalloc.h>
 #include <asm/pgtable.h>
 
+//static inline struct mem_section *__pfn_to_section(unsigned long pfn);
+//{
+//	return __nr_to_section(pfn_to_section_nr(pfn));
+//}
+EXPORT_SYMBOL(__pfn_to_section);
+//EXPORT_SYMBOL(pfn_to_page);
+//EXPORT_SYMBOL(page_to_pfn);
+
+unsigned long usr_page_to_pfn(struct page *page){
+	return page_to_pfn(page);
+}
+EXPORT_SYMBOL(usr_page_to_pfn);
+
+struct page* usr_pfn_to_page(unsigned long pfn){
+	return pfn_to_page(pfn);
+}
+EXPORT_SYMBOL(usr_pfn_to_page);
+
 /*
  * Permanent SPARSEMEM data:
  *
