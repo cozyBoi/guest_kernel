@@ -1,0 +1,1 @@
+cmd_kernel/trace/ring_buffer_benchmark.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o kernel/trace/ring_buffer_benchmark.ko kernel/trace/ring_buffer_benchmark.o kernel/trace/ring_buffer_benchmark.mod.o

@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpu/mcheck/mce-inject.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o arch/x86/kernel/cpu/mcheck/mce-inject.ko arch/x86/kernel/cpu/mcheck/mce-inject.o arch/x86/kernel/cpu/mcheck/mce-inject.mod.o

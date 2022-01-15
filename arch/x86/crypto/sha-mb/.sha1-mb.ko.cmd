@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/sha-mb/sha1-mb.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o arch/x86/crypto/sha-mb/sha1-mb.ko arch/x86/crypto/sha-mb/sha1-mb.o arch/x86/crypto/sha-mb/sha1-mb.mod.o

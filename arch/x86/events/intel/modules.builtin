@@ -1,0 +1,2 @@
+kernel/arch/x86/events/intel/intel-rapl-perf.ko
+kernel/arch/x86/events/intel/intel-uncore.ko

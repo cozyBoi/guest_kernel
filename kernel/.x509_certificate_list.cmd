@@ -1,0 +1,1 @@
+cmd_kernel/x509_certificate_list := cat /root/rpmbuild/BUILD/kernel-3.10.0-1160.42.2.el7/linux-3.10.0-1160.42.2.el7.x86_64/signing_key.x509 /dev/null >kernel/x509_certificate_list ; echo "  - Including cert /root/rpmbuild/BUILD/kernel-3.10.0-1160.42.2.el7/linux-3.10.0-1160.42.2.el7.x86_64/signing_key.x509"

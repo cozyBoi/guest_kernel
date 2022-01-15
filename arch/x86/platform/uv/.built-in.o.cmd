@@ -1,0 +1,1 @@
+cmd_arch/x86/platform/uv/built-in.o :=  ld -m elf_x86_64   -r -o arch/x86/platform/uv/built-in.o arch/x86/platform/uv/tlb_uv.o arch/x86/platform/uv/bios_uv.o arch/x86/platform/uv/uv_irq.o arch/x86/platform/uv/uv_sysfs.o arch/x86/platform/uv/uv_time.o arch/x86/platform/uv/uv_nmi.o ; scripts/mod/modpost arch/x86/platform/uv/built-in.o

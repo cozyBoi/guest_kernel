@@ -361,5 +361,6 @@
 #define __NR_ia32_pkey_mprotect 380
 #define __NR_ia32_pkey_alloc 381
 #define __NR_ia32_pkey_free 382
+#define __NR_ia32_hello 383
 
 #endif /* _ASM_X86_UNISTD_32_IA32_H */

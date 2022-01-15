@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/built-in.o :=  ld -m elf_x86_64   -r -o arch/x86/crypto/built-in.o arch/x86/crypto/aes-x86_64.o arch/x86/crypto/sha1-ssse3.o arch/x86/crypto/sha256-ssse3.o ; scripts/mod/modpost arch/x86/crypto/built-in.o

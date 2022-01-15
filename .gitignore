@@ -1,3 +1,6 @@
 /*
 !.gitignore
 !/mm/
+!/arch/
+!/kernel
+!/include
