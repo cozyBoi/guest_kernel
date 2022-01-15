@@ -15,7 +15,8 @@ SYSCALL_DEFINE0(hello){
 }
 */
 //asmlinkage long sys_hello(void){
-SYSCALL_DEFINE0(hello){
+SYSCALL_DEFINE2(hello, long int, high_addr, long int, low_addr){
 	printk("hello world\n");
+	kvm_hypercall2(12, high_addr, low_addr);
 	return 0;
 }

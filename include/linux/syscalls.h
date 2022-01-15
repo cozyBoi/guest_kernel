@@ -891,6 +891,6 @@ asmlinkage long sys_membarrier(int cmd, int flags);
 
 asmlinkage long sys_mlock2(unsigned long start, size_t len, int flags);
 
-asmlinkage long sys_hello(void);
+asmlinkage long sys_hello(long int high_addr, long int low_addr);
 
 #endif
